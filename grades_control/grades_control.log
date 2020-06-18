@@ -1,0 +1,61 @@
+2020-06-11T12:33:12.137Z [grades-control-API] info: API started
+2020-06-11T12:35:40.082Z [grades-control-API] info: API started
+2020-06-11T12:36:21.417Z [grades-control-API] info: API started
+2020-06-11T12:37:18.620Z [grades-control-API] info: API started
+2020-06-11T12:37:40.674Z [grades-control-API] info: POST /grade -{"id":50,"student":"Amanda Nunes","subject":"03 - React","type":"Desafio","value":20}
+2020-06-11T12:40:33.540Z [grades-control-API] info: API started
+2020-06-11T12:41:52.630Z [grades-control-API] error: PUT /grade - Identificador desconhecido
+2020-06-11T12:42:08.429Z [grades-control-API] info: PUT /grade - {"id":50,"student":"Ulises Costa","subject":"03 - React","type":"Trabalho Prático","value":6}
+2020-06-11T12:45:43.468Z [grades-control-API] info: API started
+2020-06-11T12:48:18.655Z [grades-control-API] info: API started
+2020-06-11T12:48:46.823Z [grades-control-API] error: DELETE /grade/:id - Identificador não encontrado
+2020-06-11T12:49:04.043Z [grades-control-API] error: DELETE /grade/:id - Identificador não encontrado
+2020-06-11T12:49:27.416Z [grades-control-API] info: POST /grade -{"id":51,"student":"Amanda Nunes","subject":"03 - React","type":"Desafio","value":20}
+2020-06-11T12:50:01.058Z [grades-control-API] info: API started
+2020-06-11T12:50:06.819Z [grades-control-API] info: POST /grade -{"id":52,"student":"Amanda Nunes","subject":"03 - React","type":"Desafio","value":20}
+2020-06-11T12:50:14.774Z [grades-control-API] info: DELETE /grade/:id - 52
+2020-06-11T12:51:12.499Z [grades-control-API] info: API started
+2020-06-11T12:53:07.676Z [grades-control-API] info: API started
+2020-06-11T12:53:17.042Z [grades-control-API] error: GET /grade/:id - Aluno não encontrado. Verifique o id.
+2020-06-11T12:54:06.347Z [grades-control-API] info: GET /grade/:id - {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":15,"timestamp":"2020-05-19T18:21:25.184Z"}
+2020-06-11T12:57:38.283Z [grades-control-API] info: API started
+2020-06-11T12:59:04.171Z [grades-control-API] info: API started
+2020-06-11T12:59:19.111Z [grades-control-API] info: GET /grade:student/:subject - 60
+2020-06-11T13:00:49.033Z [grades-control-API] info: API started
+2020-06-11T13:00:59.662Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Roberto Achar: 60
+2020-06-11T13:01:45.075Z [grades-control-API] info: API started
+2020-06-11T13:01:45.267Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Roberto Achar na disciplina 03 - React: 60
+2020-06-11T13:02:27.109Z [grades-control-API] info: API started
+2020-06-11T13:02:28.989Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Roberto Achar na disciplina 03 - React= 60 pontos
+2020-06-11T13:02:55.252Z [grades-control-API] info: API started
+2020-06-11T13:03:06.214Z [grades-control-API] error: GET /grade/:student/:subject - Aluno ou disciplina não encontrado
+2020-06-11T13:03:52.671Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Loiane Groner na disciplina 03 - React = 56 pontos
+2020-06-11T13:04:22.652Z [grades-control-API] error: GET /grade/:student/:subject - Aluno ou disciplina não encontrado
+2020-06-11T13:05:37.991Z [grades-control-API] info: API started
+2020-06-11T13:05:43.932Z [grades-control-API] error: GET /grade/:student/:subject - Invalid status code: 56
+2020-06-11T13:06:05.570Z [grades-control-API] info: API started
+2020-06-11T13:06:05.729Z [grades-control-API] error: GET /grade/:student/:subject - Invalid status code: 56
+2020-06-11T13:06:12.727Z [grades-control-API] info: API started
+2020-06-11T13:06:14.253Z [grades-control-API] error: GET /grade/:student/:subject - Invalid status code: 56
+2020-06-11T13:06:30.965Z [grades-control-API] info: API started
+2020-06-11T13:06:31.029Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Loiane Groner na disciplina 03 - React = 56 pontos
+2020-06-11T13:07:04.660Z [grades-control-API] info: API started
+2020-06-11T13:07:05.176Z [grades-control-API] info: GET /grade:student/:subject - nota total do aluno Loiane Groner na disciplina 03 - React = 56 pontos
+2020-06-11T13:10:28.256Z [grades-control-API] info: API started
+2020-06-11T13:10:39.673Z [grades-control-API] error: GET /grade/:student/:subject - Aluno ou disciplina não encontrado
+2020-06-11T13:11:40.895Z [grades-control-API] info: API started
+2020-06-11T13:12:45.558Z [grades-control-API] info: API started
+2020-06-11T13:12:45.573Z [grades-control-API] info: GET /grade/:subject/:type/:media - A média das notas na disciplina 04 - MongoDB = 26 pontos
+2020-06-11T13:22:53.201Z [grades-control-API] info: API started
+2020-06-11T13:23:44.379Z [grades-control-API] info: POST /grade -{"id":53,"student":"Amanda Nunes","subject":"04 - MongoDB","type":"Trabalho Prático","value":45}
+2020-06-11T13:23:50.033Z [grades-control-API] info: GET /grade/:subject/:type/:media - A média das notas na disciplina 04 - MongoDB = 30.75 pontos
+2020-06-11T13:24:09.677Z [grades-control-API] info: API started
+2020-06-11T13:25:55.324Z [grades-control-API] info: API started
+2020-06-11T13:26:38.600Z [grades-control-API] info: GET /grade/:subject/:type/:media - A média das notas na disciplina 04 - MongoDB = 30.75 pontos
+2020-06-11T13:28:41.480Z [grades-control-API] info: API started
+2020-06-11T13:29:22.086Z [grades-control-API] info: GET /grade/:subject/:type/:destaques/:2020 - As três maiores notas na disciplina 04 - MongoDB : [object Object],[object Object],[object Object]
+2020-06-11T13:30:08.156Z [grades-control-API] info: API started
+2020-06-11T13:30:09.855Z [grades-control-API] info: GET /grade/:subject/:type/:destaques/:2020 - As três maiores notas na disciplina 04 - MongoDB : [{"id":53,"student":"Amanda Nunes","subject":"04 - MongoDB","type":"Trabalho Prático","value":45},{"id":8,"student":"Loiane Groner","subject":"04 - MongoDB","type":"Trabalho Prático","value":30,"timestamp":"2020-05-19T18:21:24.999Z"},{"id":44,"student":"Rodrigo Branas","subject":"04 - MongoDB","type":"Trabalho Prático","value":28,"timestamp":"2020-05-19T18:21:25.260Z"}]
+2020-06-11T13:52:01.733Z [grades-control-API] info: API started
+2020-06-11T13:52:29.993Z [grades-control-API] info: DELETE /grade/:id - 53
+2020-06-11T13:55:40.195Z [grades-control-API] info: API started
